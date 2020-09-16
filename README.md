@@ -20,7 +20,8 @@ Configure it in `package.json`.
       "discordjs-v12"
     ],
     "rules": {
-      "discordjs-v12/require-intents": "error"
+      "discordjs-v12/require-intents": "error",
+      "discordjs-v12/no-event-listener-string": "suggested"
     }
   }
 }
@@ -31,6 +32,7 @@ Configure it in `package.json`.
 ## Rules
 
 <!-- RULES:START -->
+- [no-event-listener-string](docs/rules/no-event-listener-string.md) - Prefer to use Constants.Events from Discord.js.
 - [require-intents](docs/rules/require-intents.md) - Require websocket intents upon Client initialization.
 
 <!-- RULES:END -->
