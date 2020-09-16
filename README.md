@@ -21,7 +21,7 @@ Configure it in `package.json`.
     ],
     "rules": {
       "discordjs-v12/require-intents": "error",
-      "discordjs-v12/no-event-listener-string": "suggested"
+      "discordjs-v12/no-event-listener-string": "error"
     }
   }
 }
