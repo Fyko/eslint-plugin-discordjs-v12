@@ -1,5 +1,7 @@
-tests
-scripts
-node_modules
-.vscode
+tests/
+scripts/
+node_modules/
+.vscode/
 pnpm-lock.yml
+dist/test
+src/

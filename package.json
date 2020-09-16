@@ -9,6 +9,7 @@
 	],
 	"author": "Carter Himmel",
 	"main": "dist/src/index.js",
+	"license": "Apache-2.0",
 	"scripts": {
 		"lint": "eslint src --ext .ts",
 		"lint:fix": "eslint src --fix --ext .ts",

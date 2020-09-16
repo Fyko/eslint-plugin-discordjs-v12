@@ -4,6 +4,7 @@ const { createConfig } = require('create-eslint-index');
 
 export const rules = {
 	'require-intents': require('./rules/require-intents'),
+	'no-event-listener-string': require('./rules/no-event-listener-string'),
 };
 
 const recommendedRules = createConfig(
