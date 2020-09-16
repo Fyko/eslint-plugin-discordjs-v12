@@ -1,0 +1,5 @@
+tests
+scripts
+node_modules
+.vscode
+pnpm-lock.yml

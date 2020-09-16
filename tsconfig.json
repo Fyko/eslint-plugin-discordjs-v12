@@ -1,0 +1,26 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es6",
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"sourceMap": false,
+		"esModuleInterop": true,
+		"outDir": "dist"
+	},
+	"exclude": [
+		"node_modules",
+	],
+	"include": [
+		"src",
+		"test",
+		"tests",
+		"scripts"
+	]
+}
