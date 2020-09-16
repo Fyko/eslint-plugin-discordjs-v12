@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-discordjs-v12",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "A plugin to help you update from Discord.js v11 to v12.",
 	"keywords": [
 		"eslint",
