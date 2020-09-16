@@ -36,5 +36,3 @@ Configure it in `package.json`.
 <!-- RULES:END -->
 
 See [ESLint documentation](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information about extending configuration files.
-
-MIT © [Jeroen Engels](https://github.com/jfmengels)
