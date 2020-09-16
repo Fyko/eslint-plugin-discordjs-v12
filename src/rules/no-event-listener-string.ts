@@ -10,7 +10,7 @@ export = createRule({
 		docs: {
 			description: 'Prefer to use Constants.Events from Discord.js.',
 			category: 'Requirement',
-			recommended: 'suggested',
+			recommended: 'error',
 			url: 'https://github.com/fyko/eslint-plugin-discordjs-v12/tree/main/docs/rules/require-intents.md',
 		},
 		type: 'problem',
