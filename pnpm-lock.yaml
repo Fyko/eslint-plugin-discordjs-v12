@@ -1,3 +1,5 @@
+dependencies:
+  create-eslint-index: 1.0.0
 devDependencies:
   '@ava/typescript': 1.1.1
   '@types/eslint': 7.2.2
@@ -6,7 +8,6 @@ devDependencies:
   '@typescript-eslint/typescript-estree': 4.1.1_typescript@4.0.2
   ava: 3.12.1
   babel-eslint: 10.1.0_eslint@7.9.0
-  create-eslint-index: 1.0.0
   eslint: 7.9.0
   eslint-ava-rule-tester: 4.0.0_eslint@7.9.0
   eslint-config-marine: 7.2.0
@@ -822,7 +823,7 @@ packages:
   /create-eslint-index/1.0.0:
     dependencies:
       lodash.get: 4.4.2
-    dev: true
+    dev: false
     engines:
       node: '>=4.0.0'
     resolution:
@@ -1772,7 +1773,7 @@ packages:
     resolution:
       integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
   /lodash.get/4.4.2:
-    dev: true
+    dev: false
     resolution:
       integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
   /lodash/4.17.20:
