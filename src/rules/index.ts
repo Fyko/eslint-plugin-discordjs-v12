@@ -7,7 +7,7 @@ import requireNode12 from './require-node-12';
 export const array = [noEventListenerString, requireIntents, requireNode12];
 
 export default {
-	'no-event-listern-string': noEventListenerString,
+	'no-event-listener-string': noEventListenerString,
 	'require-intents': requireIntents,
 	'require-node-12': requireNode12,
 };
