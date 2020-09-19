@@ -4,6 +4,7 @@ import { AST_NODE_TYPES } from '@typescript-eslint/typescript-estree';
 export = createRule({
 	meta: {
 		docs: {
+			name: 'require-intents',
 			description: 'Require websocket intents upon Client initialization.',
 			category: 'Requirement',
 			recommended: 'error',

@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-discordjs-v12",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "A plugin to help you update from Discord.js v11 to v12.",
     "author": "Carter Himmel",
     "main": "dist/src/index.js",
@@ -21,7 +21,7 @@
         "prepublishOnly": "yarn build && yarn update-md",
         "build": "yarn cleardir && yarn compile",
         "test": "ava --verbose test/index.ts",
-        "update-md": "inject-in-tag ./scripts/update-readme.js README.md"
+        "update-md": "ts-node ./scripts/update-readme.ts"
     },
     "devDependencies": {
         "@ava/typescript": "^1.1.1",

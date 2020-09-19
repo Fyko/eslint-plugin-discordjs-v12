@@ -1,7 +1,13 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 
+import noEventListenerString from './no-event-listener-string';
+import requireIntents from './require-intents';
+import requireNode12 from './require-node-12';
+
+export const array = [noEventListenerString, requireIntents, requireNode12];
+
 export default {
-	'no-event-listern-string': require('./no-event-listener-string'),
-	'require-intents': require('./require-intents'),
-	'require-node-12': require('./require-node-12'),
+	'no-event-listern-string': noEventListenerString,
+	'require-intents': requireIntents,
+	'require-node-12': requireNode12,
 };

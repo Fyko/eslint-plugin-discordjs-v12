@@ -9,6 +9,11 @@ interface IRuleMetaData<TMessageIds extends string> {
 	 */
 	docs: {
 		/**
+		 * Name of this rule
+		 */
+		name: string;
+		
+		/**
 		 * Concise description of the rule
 		 */
 		description: string;

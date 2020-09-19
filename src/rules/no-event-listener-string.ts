@@ -8,6 +8,7 @@ const eventEntries = Object.entries(events);
 export = createRule({
 	meta: {
 		docs: {
+			name: 'no-event-listener-string',
 			description: 'Prefer to use Constants.Events from Discord.js.',
 			category: 'Requirement',
 			recommended: 'error',

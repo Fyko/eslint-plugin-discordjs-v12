@@ -12,6 +12,7 @@ const incompatible = () => {
 export = createRule({
 	meta: {
 		docs: {
+			name: 'require-node-12',
 			description: 'Require a minimum Node.js version of 12.',
 			category: 'Requirement',
 			recommended: 'error',
