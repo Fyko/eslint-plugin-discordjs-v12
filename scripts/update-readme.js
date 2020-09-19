@@ -4,7 +4,8 @@
 
 const imptAll = require('import-modules');
 const createIndex = require('create-eslint-index');
-const { configs } = require('../dist/src/index');
+const { default: recommended } = require('../dist/src/configs/recommended');
+// const { default: rules } = require('../dist/src/rules');
 
 const rules = imptAll('../dist/src/rules', { camelize: false });
 
@@ -13,16 +14,11 @@ const settings = {
 	docPath: 'docs/rules',
 };
 
-const exampleConfiguration = {
-	name: 'my-awesome-project',
-	eslintConfig: {
-		plugins: ['discordjs-v12'],
-		rules: configs.recommended.rules,
-	},
-};
+const descirption = createIndex.createRulesDescription(settings, rules).split('\n');
+descirption.shift();
 
 module.exports = {
-	RULES: `\n${createIndex.createRulesDescription(settings, rules)}\n\n`,
+	RULES: `\n${descirption.join('\n')}\n\n`,
 	// eslint-disable-next-line prefer-template
-	EXAMPLE_CONFIGURATION: '\n```json\n' + JSON.stringify(exampleConfiguration, null, 2) + '\n```\n',
+	EXAMPLE_CONFIGURATION: '\n```json\n' + JSON.stringify(recommended, null, 2) + '\n```\n',
 };

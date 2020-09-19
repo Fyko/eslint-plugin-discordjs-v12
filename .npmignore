@@ -1,7 +1,0 @@
-tests/
-scripts/
-node_modules/
-.vscode/
-pnpm-lock.yml
-dist/test
-src/

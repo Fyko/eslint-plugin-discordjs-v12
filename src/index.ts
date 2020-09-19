@@ -1,22 +1,9 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable @typescript-eslint/no-require-imports */
-const { createConfig } = require('create-eslint-index');
+import recommended from './configs/recommended';
+import rules from './rules';
 
-export const rules = {
-	'require-intents': require('./rules/require-intents'),
-	'no-event-listener-string': require('./rules/no-event-listener-string'),
-};
-
-const recommendedRules = createConfig(
-	{
-		plugin: 'discordjs-v12',
-		field: 'meta.docs.recommended',
-	},
+export = {
 	rules,
-);
-
-export const configs = {
-	recommended: {
-		rules: Object.assign({}, recommendedRules),
+	configs: {
+		recommended,
 	},
 };

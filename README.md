@@ -14,15 +14,13 @@ Configure it in `package.json`.
 <!-- EXAMPLE_CONFIGURATION:START -->
 ```json
 {
-  "name": "my-awesome-project",
-  "eslintConfig": {
-    "plugins": [
-      "discordjs-v12"
-    ],
-    "rules": {
-      "discordjs-v12/require-intents": "error",
-      "discordjs-v12/no-event-listener-string": "error"
-    }
+  "plugins": [
+    "discordjs-v12"
+  ],
+  "rules": {
+    "no-event-listern-string": "error",
+    "require-intents": "error",
+    "require-node-12": "error"
   }
 }
 ```
@@ -34,6 +32,7 @@ Configure it in `package.json`.
 <!-- RULES:START -->
 - [no-event-listener-string](docs/rules/no-event-listener-string.md) - Prefer to use Constants.Events from Discord.js.
 - [require-intents](docs/rules/require-intents.md) - Require websocket intents upon Client initialization.
+- [require-node-12](docs/rules/require-node-12.md) - Require a minimum Node.js version of 12.
 
 <!-- RULES:END -->
 

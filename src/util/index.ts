@@ -48,7 +48,7 @@ interface IRuleMetaData<TMessageIds extends string> {
 	schema?: JSONSchema4 | JSONSchema4[];
 }
 
-interface IRuleModule<
+export interface IRuleModule<
 	TMessageIds extends string,
 	TOptions extends Readonly<any[]>,
 	// for extending base rules
