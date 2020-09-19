@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-discordjs-v12",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "A plugin to help you update from Discord.js v11 to v12.",
     "author": "Carter Himmel",
     "main": "dist/src/index.js",
@@ -49,7 +49,11 @@
         "typescript": "^4.0.2"
     },
     "eslintConfig": {
-        "extends": "marine/prettier/node"
+        "extends": "marine/prettier/node",
+        "rules": {
+            "@typescript-eslint/naming-convention": 0,
+            "@typescript-eslint/no-namespace": 0
+        }
     },
     "husky": {
         "hooks": {

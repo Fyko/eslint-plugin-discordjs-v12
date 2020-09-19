@@ -12,7 +12,7 @@ interface IRuleMetaData<TMessageIds extends string> {
 		 * Name of this rule
 		 */
 		name: string;
-		
+
 		/**
 		 * Concise description of the rule
 		 */

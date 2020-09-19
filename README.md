@@ -18,9 +18,9 @@ Configure it in `package.json`.
     "discordjs-v12"
   ],
   "rules": {
-    "no-event-listern-string": "error",
-    "require-intents": "error",
-    "require-node-12": "error"
+    "discordjs-v12/no-event-listern-string": "error",
+    "discordjs-v12/require-intents": "error",
+    "discordjs-v12/require-node-12": "error"
   }
 }
 ```
